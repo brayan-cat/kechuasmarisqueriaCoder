@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.main-header {
+  width: 100%; }
+
+.logo {
+  font-size: 1.8em;
+  color: #0f6e6e;
+  padding: 10px;
+  font-family: 'Pacífico', cursiva;
+  font-weight: 100; }
+
+.main-header__contactInfo__phone {
+  background-color: darkcyan;
+  color: white;
+  margin: 0 auto;
+  padding: 10px; }
+
+.main-header__contactInfo__address {
+  padding: 10px;
+  margin: 0; }
+
+.main [class*="icon-"]:before {
+  position: relative;
+  top: 2px;
+  right: 5px; }

@@ -1,0 +1,26 @@
+{
+  "name": "pag-web-vallejo",
+  "version": "1.0.0",
+  "description": "Proyecto para coder",
+  "main": "index.js",
+  "scripts": {
+    "sass":"node-sass --include-path sass ./sass/index.scss .css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayan-cat/kechuasmarisqueriaCoder.git"
+  },
+  "author": "Brayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brayan-cat/kechuasmarisqueriaCoder/issues"
+  },
+  "homepage": "https://github.com/brayan-cat/kechuasmarisqueriaCoder#readme",
+  "keywords": [
+    "proyecto",
+    "coder"
+  ],
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
